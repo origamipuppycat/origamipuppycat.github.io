@@ -93,8 +93,9 @@
         grid-template-columns: 1fr;
         grid-template-rows: 100vh;
         background-image: url("img/LAVENDERDAMASK2whiteoverlay50percent.png");
+        background-color: rgb(255, 255, 255, 50%);
         background-size: 30%;
-        background-blend-mode: screen;
+        background-blend-mode: hue;
         background-repeat: repeat;
         height: 100vh;
         max-height: 100vh;
@@ -167,7 +168,6 @@
          .icon-container {
           grid-template-columns: repeat(5, 20%);
           grid-template-rows: auto;
-          width: 500px;
           height: 100px;
           display: grid;
           grid-auto-rows: 100px;
@@ -207,55 +207,57 @@
 </head>
 <body>
   <div class="wrapper">
-    <div class="portfolio-container">
-      <div class="portfolio-background">
-        <div>
-          <div class="header">
-            <h1 class="intro">Misti Laubscher</h1>
-            <h3>front end web developer</h3>
-          </div>
-          <div class="icon-container">
-            <div class="icon">
-              <img src="img/css-logo 100x100.jpg">
+    <div class="overlay">
+      <div class="portfolio-container">
+        <div class="portfolio-background">
+          <div>
+            <div class="header">
+              <h1 class="intro">Misti Laubscher</h1>
+              <h3>front end web developer</h3>
             </div>
-            <div class="icon">
-              <img src="img/html-logo 100x100 black background.png">
+            <div class="icon-container">
+              <div class="icon">
+                <img src="img/css-logo 100x100.jpg">
+              </div>
+              <div class="icon">
+                <img src="img/html-logo 100x100 black background.png">
+              </div>
+              <div class="icon">
+                <img src="img/javascript-logo 100x100.png">
+              </div>
+              <div class="icon">
+                <img src="img/WooCommerce-Logo 100x100 new black border.png">
+              </div>
+              <div class="icon">
+                <img src="img/wordpress-logo 100x100.png">
+              </div>
             </div>
-            <div class="icon">
-              <img src="img/javascript-logo 100x100.png">
-            </div>
-            <div class="icon">
-              <img src="img/WooCommerce-Logo 100x100 new black border.png">
-            </div>
-            <div class="icon">
-              <img src="img/wordpress-logo 100x100.png">
-            </div>
-          </div>
-          <div class="portfolio">
-            <div class="portfolio-pic-outside-border">
-              <div class="portfolio-pic-inside-border">
-                <div class="portfolio-pic">
-                  <img src="img/profile-pic.png" title="Hi, I'm Misti!" alt="image of developer, Misti Laubscher">
+            <div class="portfolio">
+              <div class="portfolio-pic-outside-border">
+                <div class="portfolio-pic-inside-border">
+                  <div class="portfolio-pic">
+                    <img src="img/profile-pic.png" title="Hi, I'm Misti!" alt="image of developer, Misti Laubscher">
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="linkButtonContainer">
-            <a target="_blank" href="https://www.linkedin.com/in/misti-laubscher-125525200/">
-              <button class="linkButton">
-                LinkedIn
-              </button>
-            </a>
-            <a target="_blank" href="https://github.com/origamipuppycat/">
-              <button class="linkButton">
-                GitHub
-              </button>
-            </a>
-            <a href="mailto:misti.laubscher@gmail.com">
-              <button class="linkButton">
-                Email
-              </button>
-            </a>
+            <div class="linkButtonContainer">
+              <a target="_blank" href="https://www.linkedin.com/in/misti-laubscher-125525200/">
+                <button class="linkButton">
+                  LinkedIn
+                </button>
+              </a>
+              <a target="_blank" href="https://github.com/origamipuppycat/">
+                <button class="linkButton">
+                  GitHub
+                </button>
+              </a>
+              <a href="mailto:misti.laubscher@gmail.com">
+                <button class="linkButton">
+                  Email
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
