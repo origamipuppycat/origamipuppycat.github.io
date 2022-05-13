@@ -17,6 +17,12 @@
       }
       body {
         margin: 0;
+        /* Make sure to remove the following styles from `.overlay` class */
+        background-image: url("img/WISTERIAdamaskMagicwandContiguouscolornumbers.png");
+        background-color: rgb(255, 255, 255, 50%);
+        background-size: 30%;
+        background-blend-mode: hue;
+        background-repeat: repeat;
       }
       .portfolio-pic > img {
         border-radius: 50%;
@@ -103,12 +109,7 @@
       .wrapper > div {
         width: 500px;
       }
-      .overlay {
-        background-image: url("img/WISTERIAdamaskMagicwandContiguouscolornumbers.png");
-        background-color: rgb(255, 255, 255, 50%);
-        background-size: 30%;
-        background-blend-mode: hue;
-        background-repeat: repeat;
+      .overlay { 
         position: absolute;
         left: 0;
         right: 0;
@@ -220,11 +221,12 @@
              scale: 0.7;
              position: relative;
              left: -2.5em;
+
            }
          }
          @media (max-width: 350px) {
            .portfolio-container {
-             scale: 0.6;
+             scale: 0.5;
              position: relative;
              left: -3.5em;
            }
