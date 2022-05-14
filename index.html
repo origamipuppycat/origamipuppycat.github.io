@@ -19,9 +19,7 @@
         margin: 0;
         /* Make sure to remove the following styles from `.overlay` class */
         background-image: url("img/WISTERIAdamaskMagicwandContiguouscolornumbers.png");
-        background-color: rgb(255, 255, 255, 50%);
         background-size: 30%;
-        background-blend-mode: hue;
         background-repeat: repeat;
       }
       .portfolio-pic > img {
@@ -216,7 +214,7 @@
            border: 2px rgb(0 0 0 / 100%) solid;
            border-radius: 2em;
          }
-         @media (max-width: 640px) {
+         @media screen and (max-width: 640px) {
            .portfolio-container {
              scale: 0.7;
              position: relative;
@@ -224,7 +222,7 @@
 
            }
          }
-         @media (max-width: 350px) {
+         @media screen and (max-width: 350px) {
            .portfolio-container {
              scale: 0.3;
              position: relative;
