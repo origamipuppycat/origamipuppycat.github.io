@@ -1,0 +1,38 @@
+{
+    "band": {
+      "name": "The Cure",
+      "albums": [
+        {
+          "name": "Disintegration",
+          "year": 1989
+        },
+        {
+          "name": "The Top",
+          "year": 1984
+        },
+        {
+          "name": "Pornography",
+          "year": 1982
+        }
+      ],
+      "members": [
+        {
+          "name": "Lol Tolhurst",
+          "role": "drummer"
+        },
+        {
+          "name": "Porl Thomson",
+          "role": "guitarist"
+        },
+        {
+          "name": "Robert Smith",
+          "role": "singer"
+        },
+        {
+          "name": "Simon Gallup",
+          "role": "bassist"
+        }
+      ]
+    }
+  }
+  
